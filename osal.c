@@ -26,11 +26,11 @@ float utility;
 unsigned char tasksCnt;
 unsigned char *pTasksEvents[TASK_MAX];
 tasksArrHandle tasksArr[TASK_MAX];
-pTaskHandle idleTask, alwaysTask;
+tasksArrHandle idleTask, alwaysTask;
 
-void idleSys(void)
+unsigned char idleSys(char idx, unsigned char events)
 {
-	
+	return 0;
 };
 
 void os_init(void)
